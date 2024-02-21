@@ -1,0 +1,19 @@
+DOMContentLoaded
+function changeBackgrounds() {
+  var element = document.getElementById('yourElementId');
+  var images = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
+  var currentIndex = 0;
+
+  function changeImage() {
+    element.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+    currentIndex = (currentIndex + 1) % images.length;
+
+    setTimeout(changeImage, 2000); // Change every 2 seconds (adjust the delay as needed)
+  }
+
+  // Initial call to start the sequence
+  changeImage();
+}
+
+// Call the function to initiate the background image change sequence
+changeBackgrounds();

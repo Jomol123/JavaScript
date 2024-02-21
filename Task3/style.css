@@ -1,0 +1,30 @@
+body{
+    background-color: #1d2fa8;
+}
+
+h1{color: darkmagenta;
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+}
+.box1{
+    width: 58px;
+    height: 50px;
+    background-color: #1d2fa8;
+    border-color: cornflowerblue;
+    margin-left: 468px;
+    margin-top: 23px;
+    font-size: 40px;
+}
+.box{
+    width: 58px;
+    height: 50px;
+    background-color: #1d2fa8;
+    border-color: cornflowerblue;
+    margin-top: 23px;
+    font-size: 40px;
+}
+
+.image{
+    margin-left: 604px;
+    font-size: 27px;
+}

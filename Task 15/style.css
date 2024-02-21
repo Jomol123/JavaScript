@@ -1,0 +1,37 @@
+body{
+    background-color: #800080;
+    text-align: center;
+    padding-top: 100px;
+}
+#quote{
+    border: 1px solid;
+    background-color: #730173;
+    height: 100px;
+    width:411px;
+    color: white;
+    font-size: 25px;
+   text-align: center;
+   padding-top: 45px ;
+   padding-top: 45px;
+    margin-left: 517px;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    font-size: 19px;
+    color: white;
+    background-color:  #730173;
+    border: 1px solid;
+    border-color: black;
+    width: 174px;
+    height: -webkit-fill-available;
+    margin-top: 40px;
+}
+.para{
+color: white;
+font-size: 40px;
+text-decoration: underline;
+}

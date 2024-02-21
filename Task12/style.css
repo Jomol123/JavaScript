@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+  background-color: goldenrod;
+    padding-top: 40px;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color:brown;
+    border: none;
+}
+
+#dogImage{
+    width:"500px" ;
+    height:"400px";
+}
+.image{
+    padding-left: 727px;
+    margin-bottom: 187px;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    width: 500px;
+    padding-left: 430px;
+}

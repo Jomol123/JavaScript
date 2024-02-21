@@ -1,0 +1,30 @@
+body{
+    background-image: url(photo/emjoi.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.maindiv{
+    border: 1px solid;
+    width: 500px;
+    text-align: center;
+    height: 350px;
+    margin-left: 439px;
+    padding-left: 300;
+    margin-top: 187px;
+    
+}
+.emoji{
+    font-size: 40px;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color:blueviolet;
+    border: none;
+}
+#joke{
+    color: crimson;
+    font-size: 25px;
+    font-style: oblique;
+}

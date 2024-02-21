@@ -1,0 +1,34 @@
+function fetchData() {
+    const weatherUrl = "https://goweather.herokuapp.com/weather/India";
+    const imageUrl = "URL_TO_YOUR_IMAGE"; // Replace with the actual URL of your image
+    
+    // Fetch weather data
+    fetch(weatherUrl)   
+        .then(response => response.json())
+        .then(weatherData => {
+            // Fetch image data
+            return fetch(imageUrl)
+                .then(response => response.blob())
+                .then(imageData => {
+                    // Combine weather and image data
+                    return { weather: weatherData, image: URL.createObjectURL(imageData) };
+                });
+        })
+        .then(data => {
+            displayData(data.weather, data.image);
+        })
+        .catch(error => {
+            console.error("Error fetching data:", error);
+        });
+}
+
+function displayData(weatherData, imageUrl) {
+    const dataInfo = document.getElementById('data');
+    dataInfo.innerHTML = `
+        <h4>Today Temperature: ${weatherData.temperature}</h4>
+        <img src="${imageUrl}" alt="Weather Image" />
+    `;
+}
+
+// Call fetchData to initiate the data fetching process
+fetchData();

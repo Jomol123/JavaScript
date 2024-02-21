@@ -1,0 +1,23 @@
+body{
+    background-image: url(photo/galaxy-background_23-2148110030.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 113px;
+}
+h1{
+    color: white;
+    font-size: 34px
+}
+#data{
+    color: white;
+    font-size: 40px;
+   
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color:blueviolet;
+    border: none;
+    height: 45px;
+}

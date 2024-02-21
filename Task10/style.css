@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: #499bef;
+    padding-top: 40px;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+
+#data{
+    font-size: 24px;
+    color: white;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color:blue;
+    border: none;
+}
